@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="MyToDo1.Views.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyToDo1.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             FontFamily="Segoe UI">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock 
+                Text="About the Author:" 
+                FontSize="26" 
+                Margin="20,30,0,0" 
+                VerticalAlignment="Bottom"
+                FontWeight="Bold"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock 
+                    Text="My Email Address: dengwenzhe04@gmail.com" 
+                    FontSize="20" 
+                    Margin="20,20,0,0" 
+                    VerticalAlignment="Bottom"
+                    Opacity="0.8"/>
+                <Button 
+                    Name="CopyEmailBtn"
+                    HorizontalAlignment="Left" 
+                    Content="Copy My Email" 
+                    Command="{Binding AddCommand}" 
+                    VerticalAlignment="Bottom" 
+                    Margin="10,0,0,0"
+                    Click="CopyEmailBtn_Click"
+                    Style="{StaticResource MaterialDesignPaperButton}"/>
+                
+                <TextBlock x:Name="PopupText" Text="The email address has been copied."
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Margin="20,20,0,0" 
+                       Visibility="Collapsed" Foreground="#b7a57a" FontSize="20"/>
+
+            </StackPanel>
+
+            <TextBlock 
+                Text="If you have any problem or any thing that you want to report, feel free to contact me." 
+                FontSize="20" 
+                Margin="20,20,0,0" 
+                VerticalAlignment="Bottom"
+                Opacity="0.8"/>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

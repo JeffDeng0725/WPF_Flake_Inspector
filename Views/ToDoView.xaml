@@ -1,0 +1,154 @@
+﻿<UserControl x:Class="MyToDo1.Views.ToDoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyToDo1.Views"
+             xmlns:viewmodels="clr-namespace:MyToDo1.ViewModels"
+             d:DataContext="{d:DesignInstance Type=viewmodels:ToDoViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             FontFamily="Segoe UI">
+    <md:DialogHost>
+        <md:DrawerHost IsRightDrawerOpen="{Binding IsRightDrawerOpen}">
+            <md:DrawerHost.RightDrawerContent>
+                <DockPanel Width="300" LastChildFill="False">
+                    <TextBlock Text="添加待办" FontSize="20" FontWeight="Bold" DockPanel.Dock="Top" Margin="15"/>
+
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="15">
+                        <TextBlock Text="状态：" Margin="0,5,15,0" HorizontalAlignment="Left"/>
+                        <ComboBox HorizontalAlignment="Left" MinWidth="10">
+                            <ComboBoxItem>待办</ComboBoxItem>
+                            <ComboBoxItem>已完成</ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <TextBox md:HintAssist.Hint="请输入待办概要" DockPanel.Dock="Top" Margin="15"/>
+
+                    <TextBox md:HintAssist.Hint="请输入待办内容" DockPanel.Dock="Top" Margin="15"/>
+
+                    <Button Content="添加到待办" DockPanel.Dock="Top" Margin="15"/>
+
+                </DockPanel>
+            </md:DrawerHost.RightDrawerContent>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <TextBlock Text="My Scans" FontSize="30" Margin="20,20" VerticalAlignment="Bottom" FontWeight="UltraBold"/>
+                        <TextBox 
+                            Width="250"  
+                            VerticalAlignment="Bottom"
+                            md:HintAssist.Hint="Looking For a Scan?" 
+                            md:TextFieldAssist.HasClearButton="True"
+                            Margin="10,20"/>
+                        <TextBlock 
+                            Text="筛选：" 
+                            Margin="10,0,20,20"
+                            VerticalAlignment="Bottom"
+                            FontSize="20"/>
+                        <ComboBox SelectedIndex="0" VerticalAlignment="Bottom" Margin="0,0,10,20">
+                            <ComboBoxItem>全部</ComboBoxItem>
+                            <ComboBoxItem>待办</ComboBoxItem>
+                            <ComboBoxItem>已完成</ComboBoxItem>
+                        </ComboBox>
+
+                        <Button HorizontalAlignment="Left" Content="+ 添加代办" 
+                            Command="{Binding AddCommand}" VerticalAlignment="Bottom"
+                            Margin="10,0,0,20"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button HorizontalAlignment="Right" Content="Delete All" Command="{Binding DeleteAllCommand}" VerticalAlignment="Bottom" Margin="10,0,0,20"/>
+                    </StackPanel>
+                </StackPanel>
+                
+                <Border BorderBrush="#dddddd" BorderThickness="0,0,0,1"/>
+
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
+                    <ItemsControl Grid.Row="1" ItemsSource="{Binding ToDoDtos}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="220" MinHeight="180" MaxHeight="250" Margin="15">
+
+                                    <Grid.InputBindings>
+                                        <MouseBinding MouseAction="LeftClick"
+                                                      Command="{Binding DataContext.NavigateCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ItemsControl}}"
+                                                      CommandParameter="{Binding}"/>
+                                    </Grid.InputBindings>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+
+                                    <Border CornerRadius="10" Grid.RowSpan="2" Background="#b7a57a" HorizontalAlignment="Stretch">
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Style.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Effect">
+                                                            <Setter.Value>
+                                                                <DropShadowEffect
+                                                                    Color="#DDDDDD"
+                                                                    ShadowDepth="1"
+                                                                    BlurRadius="10"/>
+                                                            </Setter.Value>
+                                                        </Setter>
+                                                        <Setter Property="Cursor" Value="Hand" />
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Border.Style>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto"/>
+                                                <RowDefinition/>
+                                            </Grid.RowDefinitions>
+                                            <Canvas Grid.RowSpan="2" ClipToBounds="True">
+                                                <Border 
+        Canvas.Top="10" Canvas.Right="-50"
+        Width="120" Height="120"
+        Background="#FFFFFF"
+        Opacity="0.1"
+        CornerRadius="100"/>
+                                                <Border 
+        Canvas.Top="80" Canvas.Right="-30"
+        Width="120" Height="120"
+        Background="#FFFFFF"
+        Opacity="0.1"
+        CornerRadius="100"/>
+                                            </Canvas>
+                                            <TextBlock Name="materialTitle" Text="{Binding Title}" HorizontalAlignment="Left" Margin="25,20,0, 0" FontWeight="Bold" FontSize="30"/>
+                                            <TextBlock Name="timeContent" Text="{Binding Content}" Grid.Row="1" HorizontalAlignment="Left" Margin="25,15" FontSize="16"/>
+
+                                            
+                                        </Grid>
+                                    </Border>
+
+                                    
+
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+
+                    </ItemsControl>
+                </ScrollViewer>
+                
+
+            </Grid>
+        </md:DrawerHost>
+    </md:DialogHost>
+    
+</UserControl>

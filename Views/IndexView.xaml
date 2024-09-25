@@ -1,0 +1,197 @@
+﻿<UserControl x:Class="MyToDo1.Views.IndexView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyToDo1.Views"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:viewmodels="clr-namespace:MyToDo1.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:IndexViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             FontFamily="Segoe UI">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel  Orientation="Horizontal">
+            <TextBlock Text="Index" FontSize="30" Margin="20" VerticalAlignment="Bottom" FontWeight="UltraBold"/>
+            <TextBlock Name="DateTextBlock" FontSize="20" Margin="0,20" VerticalAlignment="Bottom"/>
+        </StackPanel>
+        
+        <Border BorderBrush="#dddddd" BorderThickness="0,0,0,1"/>
+
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding TaskBars}" Margin="0,15,0,0">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="4"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Background="{Binding Color}" Margin="15,0" CornerRadius="10">
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Effect">
+                                            <Setter.Value>
+                                                <DropShadowEffect
+                                                    Color="#DDDDDD"
+                                                    ShadowDepth="1"
+                                                    BlurRadius="10"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <Grid>
+                            <StackPanel Margin="20,20" HorizontalAlignment="Left">
+                                <materialDesign:PackIcon 
+                                    Kind="{Binding Icon}" 
+                                    Width="30"
+                                    Height="30"/>
+
+                                <TextBlock 
+                                    Text="{Binding Title}" 
+                                    Margin="0,15"
+                                    FontSize="24"
+                                    FontWeight="Bold"/>
+
+                                <TextBlock 
+                                    Text="{Binding Content}" 
+                                    FontWeight="Bold"
+                                    FontSize="40"/>
+
+                            </StackPanel>
+
+                            <Canvas ClipToBounds="True">
+                                <Border Canvas.Top="10" Canvas.Right="-50"
+                                        Width="120" Height="120"
+                                        Background="#FFFFFF"
+                                        Opacity="0.1"
+                                        CornerRadius="100"/>
+                                <Border Canvas.Top="80" Canvas.Right="-30"
+                                        Width="120" Height="120"
+                                        Background="#FFFFFF"
+                                        Opacity="0.1"
+                                        CornerRadius="100"/>
+                            </Canvas>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <Grid Grid.Row="2" Margin="0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border 
+                Grid.Column="0"
+                Margin="15,0" 
+                CornerRadius="10" 
+                Opacity="0.1"
+                Background="#BEBEBE"/>
+
+            <Border 
+                Grid.Column="1"
+                Margin="15,0" 
+                CornerRadius="10" 
+                Opacity="0.1"
+                Background="#BEBEBE"/>
+
+            <DockPanel Margin="15,0">
+                <DockPanel
+                    Margin="15,15"
+                    DockPanel.Dock="Top"
+                    LastChildFill="False">
+                    <TextBlock Text="待办事项"
+                               FontSize="20"
+                               FontWeight="Bold"/>
+                    <Button Width="30"
+                            Height="30"
+                            DockPanel.Dock="Right"
+                            VerticalAlignment="Top"
+                            Style="{StaticResource MaterialDesignFloatingActionSecondaryButton}">
+
+                        <materialDesign:PackIcon Kind="Add"/>
+                    </Button>
+
+
+                </DockPanel>
+
+                <ListBox ItemsSource="{Binding ToDoDtos}"
+                         HorizontalContentAlignment="Stretch">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <DockPanel MaxHeight="80" LastChildFill="False" >
+                                <ToggleButton DockPanel.Dock="Right"/>
+
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Title}"
+                                                FontSize="16"
+                                                FontWeight="Bold"/>
+
+                                    <TextBlock Text="{Binding Content}"
+                                                Margin="0,10"
+                                                Opacity="0.5"/>
+                                </StackPanel>
+                                
+                            </DockPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </DockPanel>
+
+            <DockPanel Margin="15,0" Grid.Column="1">
+                <DockPanel
+                    Margin="15,15"
+                    DockPanel.Dock="Top"
+                    LastChildFill="False">
+
+                    <TextBlock 
+                        Text="备忘录"
+                        FontSize="20"
+                        FontWeight="Bold"/>
+
+                    <Button 
+                        Width="30"
+                        Height="30"
+                        DockPanel.Dock="Right"
+                        VerticalAlignment="Top"
+                        Style="{StaticResource MaterialDesignFloatingActionSecondaryButton}">
+                        <materialDesign:PackIcon Kind="Add"/>
+                    </Button>
+
+                </DockPanel>
+
+                <ListBox ItemsSource="{Binding MemoDtos}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel MaxHeight="80">
+                                <TextBlock Text="{Binding Title}"
+                           FontSize="16"
+                           FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Content}"
+                           Margin="0,10"
+                           Opacity="0.5"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </DockPanel>
+
+
+
+        </Grid>
+
+
+    </Grid>
+</UserControl>

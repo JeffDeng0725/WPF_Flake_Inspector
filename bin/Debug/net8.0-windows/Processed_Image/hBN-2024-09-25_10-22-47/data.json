@@ -1,0 +1,23 @@
+{
+  "x_1": -0.0197,
+  "y_1": -3.4665,
+  "x_2": -0.0197,
+  "y_2": -3.4665,
+  "xStepLength": 0.036,
+  "yStepLength": 0.024,
+  "AEMode": "P",
+  "TV": "40",
+  "AV": "",
+  "ISO": "800",
+  "WhiteBalance": "Tungsten light",
+  "MeteringMode": "Spot metering",
+  "ExposureComp": "0",
+  "ImageQuality": "Large Fine Jpeg",
+  "DriveMode": "Single shooting",
+  "AFMode": "Manual Focus",
+  "DCStrobe": null,
+  "MovieQuality": "1920x1080_2997_ipb_standard",
+  "MovieHFR": null,
+  "PictureStyle": "Faithful",
+  "Aspect": "Full-frame"
+}

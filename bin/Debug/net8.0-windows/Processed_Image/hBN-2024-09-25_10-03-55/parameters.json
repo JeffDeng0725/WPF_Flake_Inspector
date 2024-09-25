@@ -1,0 +1,10 @@
+{
+  "InputFolder": "D:\\PyTests\\hBN\\inputs",
+  "OutputFolder": "D:\\VisualStudio\\Test\\MyToDo1\\bin\\Debug\\net8.0-windows\\Processed_Image\\hBN-2024-09-25_10-03-55",
+  "LowThreshold": 100,
+  "HighThreshold": 170,
+  "Number": 5,
+  "Channel": "blue",
+  "CropRatio": 0.7,
+  "Material": "hBN"
+}

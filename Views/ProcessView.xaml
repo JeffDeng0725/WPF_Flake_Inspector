@@ -1,0 +1,166 @@
+﻿<UserControl x:Class="MyToDo1.Views.ProcessView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:MyToDo1.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             FontFamily="Segoe UI">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Process" FontSize="30" Margin="20,20" VerticalAlignment="Bottom" FontWeight="UltraBold"/>
+
+        <Border BorderBrush="#dddddd" BorderThickness="0,0,0,1"/>
+        
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+
+                <Grid Grid.Row="0" Margin="0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border 
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    <Border 
+Grid.Column="1"
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="20,0">
+                        <TextBlock Text="Input Folder" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <TextBox Name="folderPathTextBox" Text="-" HorizontalAlignment="Left" Margin="10"/>
+                        <Button Name="selectFolderPathBtn" Content="Select Input Folder" Click="selectFolderPathBtn_Click" HorizontalAlignment="Left" Margin="10,10,10,20" Style="{StaticResource MaterialDesignPaperButton}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="20,0" Grid.Column="1">
+                        <TextBlock Text="Output Folder" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                            <TextBox Name="outputDirTextBox" Text="-" HorizontalAlignment="Left" Margin="10"/>
+                            <Button Content="Copy" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="8" Style="{StaticResource MaterialDesignPaperButton}" Click="Button_Click"/>
+                        </StackPanel>
+                        <Button Name="selectOutputDirButton" Content="Select Output Folder" Click="selectOutputDirButton_Click" HorizontalAlignment="Left" Margin="10,10,10,20" Style="{StaticResource MaterialDesignPaperButton}"/>
+                    </StackPanel>
+
+                    
+
+                </Grid>
+
+
+                <Grid Grid.Row="1" Margin="0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border 
+Grid.Column="0"
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    <Border 
+Grid.Column="1"
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    <Border 
+Grid.Column="2"
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    <Border 
+Grid.Column="3"
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="20,0,30,0" Grid.Column="0">
+                        <TextBlock Text="Low Threshold" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <materialDesign:NumericUpDown Name="lowThresholdNumericUD" AllowChangeOnScroll="True" Value="100"  HorizontalAlignment="Left" Margin="10,40,10,20" />
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="30,0" Grid.Column="1">
+                        <TextBlock Text="High Threshold" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <materialDesign:NumericUpDown Name="highThresholdNumericUD" AllowChangeOnScroll="True" Value="170" HorizontalAlignment="Left" Margin="10,40,10,20"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="30,0" Grid.Column="2">
+                        <TextBlock Text="Number" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <materialDesign:NumericUpDown Name="numberNumericUD" AllowChangeOnScroll="True" Value="5" HorizontalAlignment="Left" Margin="10,40,10,20"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="30,0" Grid.Column="3" >
+                        <TextBlock Text="Channel" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <ComboBox Name="channelComboBox" HorizontalAlignment="Left" Margin="10,40,10,20" Width="70">
+                            <ComboBoxItem Content="blue"/>
+                            <ComboBoxItem Content="red"/>
+                            <ComboBoxItem Content="green"/>
+                            <ComboBoxItem Content="gray"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    
+
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Border 
+Grid.Column="0"
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    <Border 
+Grid.Column="1"
+Margin="15,0" 
+CornerRadius="10" 
+Opacity="0.1"
+Background="#BEBEBE"/>
+                    
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="20,0" Grid.Column="0">
+                        <TextBlock Text="Crop Ratio" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <TextBlock Text="{Binding ElementName=cropRatioSlider, Path=Value, StringFormat='{}{0:F2}'}" FontSize="16" HorizontalAlignment="Left" Margin="10"/>
+                        <Slider Name="cropRatioSlider" Minimum="0" Maximum="1" Value="0.7" SmallChange="0.01" LargeChange="0.1" Width="300" HorizontalAlignment="Left" Margin="10,0,10,20"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="30,0,30,20" Grid.Column="3">
+                        <TextBlock Text="Material" FontSize="20" HorizontalAlignment="Left" Margin="10"/>
+                        <ComboBox Name="materialComboBox" HorizontalAlignment="Left" Margin="10" Width="70">
+                            <ComboBoxItem Content="hBN"/>
+                            <ComboBoxItem Content="Graphene"/>
+                            <ComboBoxItem Content="MoTe2"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    
+                </Grid>
+
+                <Button x:Name="startPythonBtn" Content="Click Here to Start Python Script" Margin="30" Grid.Row="3" Click="startPythonBtn_Click" Style="{StaticResource MaterialDesignPaperButton}"/>
+
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+    
+</UserControl>

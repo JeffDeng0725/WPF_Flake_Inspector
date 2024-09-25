@@ -1,0 +1,587 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\Test\\MyToDo1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\todoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\todoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\indexview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\indexview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\processview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\processview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\remotecaptureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\remotecaptureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\processview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\processview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\processviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\processviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\mainview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\mainview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\navigationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\settingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\settingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\detailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\detailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\detailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\skinview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\skinview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\memoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\memoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\skinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\skinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\skinview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\skinview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\viewmodels\\memoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:viewmodels\\memoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\indexview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\indexview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\common\\models\\detailbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:common\\models\\detailbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\detailview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\detailview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jeff\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jeff\\AppData\\Local\\Temp\\.vsdbgsrc\\42457897f1285ffc7ed978cbfb3f7b5933f5cb5427295abb3c44871bab3de3a0\\Application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\extentions\\prismmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:extentions\\prismmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\views\\todoview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:views\\todoview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\mytodo1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:mytodo1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|d:\\visualstudio\\test\\mytodo1\\common\\models\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C125180-C3A6-42F7-AEEC-6B3FD99C66F4}|MyToDo1.csproj|solutionrelative:common\\models\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VisualStudio\\Test\\MyToDo1\\obj\\Debug\\net8.0-windows\\Views\\SettingsView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\Views\\SettingsView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VisualStudio\\Test\\MyToDo1\\obj\\Debug\\net8.0-windows\\Views\\DetailView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\Views\\DetailView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 269,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RemoteCaptureViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\RemoteCaptureViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RemoteCaptureViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\RemoteCaptureViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RemoteCaptureViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:25:03.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndexView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\IndexView.xaml",
+              "RelativeDocumentMoniker": "Views\\IndexView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\IndexView.xaml",
+              "RelativeToolTip": "Views\\IndexView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T22:51:52.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ToDoView.xaml",
+              "RelativeDocumentMoniker": "Views\\ToDoView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ToDoView.xaml",
+              "RelativeToolTip": "Views\\ToDoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T23:08:09.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\AboutView.xaml",
+              "RelativeDocumentMoniker": "Views\\AboutView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\AboutView.xaml",
+              "RelativeToolTip": "Views\\AboutView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T06:24:26.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\MainView.xaml",
+              "RelativeToolTip": "Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T22:51:51.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProcessView.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ProcessView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProcessView.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ProcessView.xaml.cs",
+              "RelativeToolTip": "Views\\ProcessView.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwEMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:59:10.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProcessView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ProcessView.xaml",
+              "RelativeDocumentMoniker": "Views\\ProcessView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ProcessView.xaml",
+              "RelativeToolTip": "Views\\ProcessView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T23:07:13.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProcessViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\ProcessViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProcessViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\ProcessViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProcessViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:07:11.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:02:37.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainView.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\MainView.xaml.cs",
+              "RelativeToolTip": "Views\\MainView.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:20:45.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavigationViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\NavigationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\NavigationViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\NavigationViewModel.cs",
+              "RelativeToolTip": "ViewModels\\NavigationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T00:38:31.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SettingsViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\SettingsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SettingsViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\SettingsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SettingsViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:58:38.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SettingsView.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SettingsView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SettingsView.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SettingsView.xaml.cs",
+              "RelativeToolTip": "Views\\SettingsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:07:41.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SettingsView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SettingsView.xaml",
+              "RelativeDocumentMoniker": "Views\\SettingsView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SettingsView.xaml",
+              "RelativeToolTip": "Views\\SettingsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T06:07:27.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DetailView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\DetailView.xaml",
+              "RelativeDocumentMoniker": "Views\\DetailView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\DetailView.xaml",
+              "RelativeToolTip": "Views\\DetailView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T23:41:17.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IndexViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\IndexViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\IndexViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\IndexViewModel.cs",
+              "RelativeToolTip": "ViewModels\\IndexViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywC0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:09:31.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DetailViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\DetailViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DetailViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\DetailViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DetailViewModel.cs",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAcwNUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T00:13:22.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ToDoViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\ToDoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ToDoViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\ToDoViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ToDoViewModel.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAADgv0sAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:08:14.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SkinView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SkinView.xaml",
+              "RelativeDocumentMoniker": "Views\\SkinView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SkinView.xaml",
+              "RelativeToolTip": "Views\\SkinView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T06:25:11.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MemoView.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\MemoView.xaml",
+              "RelativeDocumentMoniker": "Views\\MemoView.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\MemoView.xaml",
+              "RelativeToolTip": "Views\\MemoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-25T07:13:24.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SkinView.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SkinView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SkinView.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\SkinView.xaml.cs",
+              "RelativeToolTip": "Views\\SkinView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:59:35.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MemoViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\MemoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MemoViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\MemoViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MemoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:56:27.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SkinViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\SkinViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SkinViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\ViewModels\\SkinViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SkinViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:59:00.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T23:40:01.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:40:05.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DetailBar.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Common\\Models\\DetailBar.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\DetailBar.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Common\\Models\\DetailBar.cs",
+              "RelativeToolTip": "Common\\Models\\DetailBar.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T05:26:46.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IndexView.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\IndexView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\IndexView.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\IndexView.xaml.cs",
+              "RelativeToolTip": "Views\\IndexView.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T19:34:39.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DetailView.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\DetailView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DetailView.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\DetailView.xaml.cs",
+              "RelativeToolTip": "Views\\DetailView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:49:19.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\Jeff\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\Jeff\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAAALUBAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T04:45:25.824Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\Jeff\\AppData\\Local\\Temp\\.vsdbgsrc\\42457897f1285ffc7ed978cbfb3f7b5933f5cb5427295abb3c44871bab3de3a0\\Application.cs",
+              "ToolTip": "C:\\Users\\Jeff\\AppData\\Local\\Temp\\.vsdbgsrc\\42457897f1285ffc7ed978cbfb3f7b5933f5cb5427295abb3c44871bab3de3a0\\Application.cs [\u53EA\u8BFB]",
+              "ViewState": "AgIAAOYFAAAAAAAAAAAjwPgFAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T23:56:52.708Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MyToDo1.csproj",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\MyToDo1.csproj",
+              "RelativeDocumentMoniker": "MyToDo1.csproj",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\MyToDo1.csproj",
+              "RelativeToolTip": "MyToDo1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T05:43:24.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ToDoDto.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Common\\Models\\ToDoDto.cs",
+              "RelativeDocumentMoniker": "Common\\Models\\ToDoDto.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Common\\Models\\ToDoDto.cs",
+              "RelativeToolTip": "Common\\Models\\ToDoDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvyIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:10:05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PrismManager.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Extentions\\PrismManager.cs",
+              "RelativeDocumentMoniker": "Extentions\\PrismManager.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Extentions\\PrismManager.cs",
+              "RelativeToolTip": "Extentions\\PrismManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:25:52.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ToDoView.xaml.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ToDoView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ToDoView.xaml.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\Views\\ToDoView.xaml.cs",
+              "RelativeToolTip": "Views\\ToDoView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:08:12.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SettingsView.g.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\obj\\Debug\\net8.0-windows\\Views\\SettingsView.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\Views\\SettingsView.g.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\obj\\Debug\\net8.0-windows\\Views\\SettingsView.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\Views\\SettingsView.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:58:33.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DetailView.g.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\Test\\MyToDo1\\obj\\Debug\\net8.0-windows\\Views\\DetailView.g.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\Views\\DetailView.g.cs",
+              "ToolTip": "D:\\VisualStudio\\Test\\MyToDo1\\obj\\Debug\\net8.0-windows\\Views\\DetailView.g.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\Views\\DetailView.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:58:32.492Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
